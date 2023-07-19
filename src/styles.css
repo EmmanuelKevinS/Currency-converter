@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.main-div-bg-img {
+  background-image: url("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW9uZXl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+}
+
+.title {
+  color: #fff;
+  font-size: 3rem;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  margin-bottom: 100px;
+}
+
+.input {
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.select {
+  border: 1.5px solid black;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.words {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
